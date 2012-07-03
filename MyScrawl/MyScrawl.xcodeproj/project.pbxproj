@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4368E42015A1A5F4005D4BE8 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4368E41F15A1A5F4005D4BE8 /* TouchView.m */; };
 		43E74650159C82620044303B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E7464F159C82620044303B /* UIKit.framework */; };
 		43E74652159C82620044303B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E74651159C82620044303B /* Foundation.framework */; };
 		43E74654159C82620044303B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E74653159C82620044303B /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4368E41E15A1A5F4005D4BE8 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		4368E41F15A1A5F4005D4BE8 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
 		43E7464B159C82620044303B /* MyScrawl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyScrawl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E7464F159C82620044303B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		43E74651159C82620044303B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +86,8 @@
 				43E74664159C82630044303B /* HelloWorldViewController.h */,
 				43E74665159C82630044303B /* HelloWorldViewController.m */,
 				43E74656159C82620044303B /* Supporting Files */,
+				4368E41E15A1A5F4005D4BE8 /* TouchView.h */,
+				4368E41F15A1A5F4005D4BE8 /* TouchView.m */,
 			);
 			path = MyScrawl;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				43E7465C159C82620044303B /* main.m in Sources */,
 				43E74660159C82630044303B /* HelloWorldAppDelegate.m in Sources */,
 				43E74666159C82630044303B /* HelloWorldViewController.m in Sources */,
+				4368E42015A1A5F4005D4BE8 /* TouchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				43E7466B159C82630044303B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

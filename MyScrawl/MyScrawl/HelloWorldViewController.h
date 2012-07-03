@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloWorldViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIView *MyCanvas;
 @end

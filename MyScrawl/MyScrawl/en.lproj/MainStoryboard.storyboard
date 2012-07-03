@@ -16,15 +16,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="0.99787135682694561" blue="0.86747836602624318" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="MyCanvas" destination="3" id="OkD-6B-cWh"/>
+                    </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="HelloWorldViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HelloWorldViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
